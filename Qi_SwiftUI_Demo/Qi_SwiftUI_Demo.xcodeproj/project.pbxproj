@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7646479624C03BB9002A8151 /* Qi_SwiftUI_ClipApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7646479524C03BB9002A8151 /* Qi_SwiftUI_ClipApp.swift */; };
+		7646479824C03BB9002A8151 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7646479724C03BB9002A8151 /* ContentView.swift */; };
+		7646479A24C03BBA002A8151 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7646479924C03BBA002A8151 /* Assets.xcassets */; };
+		7646479D24C03BBA002A8151 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7646479C24C03BBA002A8151 /* Preview Assets.xcassets */; };
+		764647A224C03BBA002A8151 /* Qi_SwiftUI Clip.app in Embed App Clips */ = {isa = PBXBuildFile; fileRef = 7646479324C03BB9002A8151 /* Qi_SwiftUI Clip.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		764647A824C03C0B002A8151 /* SharedAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 764647A724C03C0B002A8151 /* SharedAssets.xcassets */; };
+		764647A924C03C0B002A8151 /* SharedAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 764647A724C03C0B002A8151 /* SharedAssets.xcassets */; };
+		764647AA24C03E5F002A8151 /* ListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11185B62371BD2900BDC2C9 /* ListRow.swift */; };
+		764647AB24C03E62002A8151 /* ListDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11185B82371BD4100BDC2C9 /* ListDetail.swift */; };
+		764647AC24C03E65002A8151 /* Symbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11185B42371BD0000BDC2C9 /* Symbols.swift */; };
 		F11185A12371BC2300BDC2C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11185A02371BC2300BDC2C9 /* AppDelegate.swift */; };
 		F11185A32371BC2300BDC2C9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11185A22371BC2300BDC2C9 /* SceneDelegate.swift */; };
 		F11185A52371BC2300BDC2C9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11185A42371BC2300BDC2C9 /* ContentView.swift */; };
@@ -18,7 +28,39 @@
 		F11185B92371BD4100BDC2C9 /* ListDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11185B82371BD4100BDC2C9 /* ListDetail.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		764647A024C03BBA002A8151 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F11185952371BC2300BDC2C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7646479224C03BB9002A8151;
+			remoteInfo = "Qi_SwiftUI Clip";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		764647A324C03BBA002A8151 /* Embed App Clips */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/AppClips";
+			dstSubfolderSpec = 16;
+			files = (
+				764647A224C03BBA002A8151 /* Qi_SwiftUI Clip.app in Embed App Clips */,
+			);
+			name = "Embed App Clips";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		7646479324C03BB9002A8151 /* Qi_SwiftUI Clip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Qi_SwiftUI Clip.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7646479524C03BB9002A8151 /* Qi_SwiftUI_ClipApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Qi_SwiftUI_ClipApp.swift; sourceTree = "<group>"; };
+		7646479724C03BB9002A8151 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7646479924C03BBA002A8151 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7646479C24C03BBA002A8151 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7646479E24C03BBA002A8151 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7646479F24C03BBA002A8151 /* Qi_SwiftUI_Clip.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Qi_SwiftUI_Clip.entitlements; sourceTree = "<group>"; };
+		764647A724C03C0B002A8151 /* SharedAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = SharedAssets.xcassets; sourceTree = "<group>"; };
 		F111859D2371BC2300BDC2C9 /* Qi_SwiftUI_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Qi_SwiftUI_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F11185A02371BC2300BDC2C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F11185A22371BC2300BDC2C9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -33,6 +75,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		7646479024C03BB9002A8151 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F111859A2371BC2300BDC2C9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -43,10 +92,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7646479424C03BB9002A8151 /* Qi_SwiftUI Clip */ = {
+			isa = PBXGroup;
+			children = (
+				7646479524C03BB9002A8151 /* Qi_SwiftUI_ClipApp.swift */,
+				7646479724C03BB9002A8151 /* ContentView.swift */,
+				7646479924C03BBA002A8151 /* Assets.xcassets */,
+				7646479E24C03BBA002A8151 /* Info.plist */,
+				7646479F24C03BBA002A8151 /* Qi_SwiftUI_Clip.entitlements */,
+				7646479B24C03BBA002A8151 /* Preview Content */,
+			);
+			path = "Qi_SwiftUI Clip";
+			sourceTree = "<group>";
+		};
+		7646479B24C03BBA002A8151 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7646479C24C03BBA002A8151 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		F11185942371BC2300BDC2C9 = {
 			isa = PBXGroup;
 			children = (
 				F111859F2371BC2300BDC2C9 /* Qi_SwiftUI_Demo */,
+				7646479424C03BB9002A8151 /* Qi_SwiftUI Clip */,
 				F111859E2371BC2300BDC2C9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				F111859D2371BC2300BDC2C9 /* Qi_SwiftUI_Demo.app */,
+				7646479324C03BB9002A8151 /* Qi_SwiftUI Clip.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -72,6 +144,7 @@
 				F11185AB2371BC2400BDC2C9 /* LaunchScreen.storyboard */,
 				F11185AE2371BC2400BDC2C9 /* Info.plist */,
 				F11185A82371BC2400BDC2C9 /* Preview Content */,
+				764647A724C03C0B002A8151 /* SharedAssets.xcassets */,
 			);
 			path = Qi_SwiftUI_Demo;
 			sourceTree = "<group>";
@@ -87,6 +160,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		7646479224C03BB9002A8151 /* Qi_SwiftUI Clip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 764647A624C03BBA002A8151 /* Build configuration list for PBXNativeTarget "Qi_SwiftUI Clip" */;
+			buildPhases = (
+				7646478F24C03BB9002A8151 /* Sources */,
+				7646479024C03BB9002A8151 /* Frameworks */,
+				7646479124C03BB9002A8151 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Qi_SwiftUI Clip";
+			productName = "Qi_SwiftUI Clip";
+			productReference = 7646479324C03BB9002A8151 /* Qi_SwiftUI Clip.app */;
+			productType = "com.apple.product-type.application.on-demand-install-capable";
+		};
 		F111859C2371BC2300BDC2C9 /* Qi_SwiftUI_Demo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F11185B12371BC2400BDC2C9 /* Build configuration list for PBXNativeTarget "Qi_SwiftUI_Demo" */;
@@ -94,10 +184,12 @@
 				F11185992371BC2300BDC2C9 /* Sources */,
 				F111859A2371BC2300BDC2C9 /* Frameworks */,
 				F111859B2371BC2300BDC2C9 /* Resources */,
+				764647A324C03BBA002A8151 /* Embed App Clips */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				764647A124C03BBA002A8151 /* PBXTargetDependency */,
 			);
 			name = Qi_SwiftUI_Demo;
 			productName = Qi_SwiftUI_Demo;
@@ -110,10 +202,13 @@
 		F11185952371BC2300BDC2C9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1110;
+				LastSwiftUpdateCheck = 1200;
 				LastUpgradeCheck = 1110;
 				ORGANIZATIONNAME = QiShare;
 				TargetAttributes = {
+					7646479224C03BB9002A8151 = {
+						CreatedOnToolsVersion = 12.0;
+					};
 					F111859C2371BC2300BDC2C9 = {
 						CreatedOnToolsVersion = 11.1;
 					};
@@ -133,11 +228,22 @@
 			projectRoot = "";
 			targets = (
 				F111859C2371BC2300BDC2C9 /* Qi_SwiftUI_Demo */,
+				7646479224C03BB9002A8151 /* Qi_SwiftUI Clip */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		7646479124C03BB9002A8151 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				764647A924C03C0B002A8151 /* SharedAssets.xcassets in Resources */,
+				7646479D24C03BBA002A8151 /* Preview Assets.xcassets in Resources */,
+				7646479A24C03BBA002A8151 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F111859B2371BC2300BDC2C9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -145,12 +251,25 @@
 				F11185AD2371BC2400BDC2C9 /* LaunchScreen.storyboard in Resources */,
 				F11185AA2371BC2400BDC2C9 /* Preview Assets.xcassets in Resources */,
 				F11185A72371BC2400BDC2C9 /* Assets.xcassets in Resources */,
+				764647A824C03C0B002A8151 /* SharedAssets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		7646478F24C03BB9002A8151 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				764647AC24C03E65002A8151 /* Symbols.swift in Sources */,
+				7646479824C03BB9002A8151 /* ContentView.swift in Sources */,
+				7646479624C03BB9002A8151 /* Qi_SwiftUI_ClipApp.swift in Sources */,
+				764647AB24C03E62002A8151 /* ListDetail.swift in Sources */,
+				764647AA24C03E5F002A8151 /* ListRow.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F11185992371BC2300BDC2C9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -166,6 +285,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		764647A124C03BBA002A8151 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7646479224C03BB9002A8151 /* Qi_SwiftUI Clip */;
+			targetProxy = 764647A024C03BBA002A8151 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		F11185AB2371BC2400BDC2C9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -178,6 +305,54 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		764647A424C03BBA002A8151 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_ENTITLEMENTS = "Qi_SwiftUI Clip/Qi_SwiftUI_Clip.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Qi_SwiftUI Clip/Preview Content\"";
+				DEVELOPMENT_TEAM = 8ZX24TX624;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Qi_SwiftUI Clip/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qishare.ios.lsq.Qi-SwiftUI-Demo.Clip";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		764647A524C03BBA002A8151 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_ENTITLEMENTS = "Qi_SwiftUI Clip/Qi_SwiftUI_Clip.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Qi_SwiftUI Clip/Preview Content\"";
+				DEVELOPMENT_TEAM = 8ZX24TX624;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Qi_SwiftUI Clip/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qishare.ios.lsq.Qi-SwiftUI-Demo.Clip";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		F11185AF2371BC2400BDC2C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -233,7 +408,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG APPCLIP";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -286,6 +461,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = APPCLIP;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
@@ -295,6 +471,7 @@
 		F11185B22371BC2400BDC2C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Qi_SwiftUI_Demo/Preview Content\"";
@@ -315,6 +492,7 @@
 		F11185B32371BC2400BDC2C9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Qi_SwiftUI_Demo/Preview Content\"";
@@ -335,6 +513,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		764647A624C03BBA002A8151 /* Build configuration list for PBXNativeTarget "Qi_SwiftUI Clip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				764647A424C03BBA002A8151 /* Debug */,
+				764647A524C03BBA002A8151 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		F11185982371BC2300BDC2C9 /* Build configuration list for PBXProject "Qi_SwiftUI_Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
